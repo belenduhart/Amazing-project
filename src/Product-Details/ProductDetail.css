@@ -1,0 +1,85 @@
+
+.ProductData{
+    width: 50%;
+}
+
+.ProductTitle{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.ProductDescription{
+    font-size: 20px;
+    color: rgba(0,0,0,0.8);
+    margin-top: 0;
+    margin-bottom: 16px;
+    width:90%;
+}
+.Selector{
+    display: flex;
+    flex-direction: row;
+}
+.ProductImage{
+    width: 100%;
+    max-width: 80px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.SelectedProductImage{
+    border: 2px solid teal;
+}
+.ProductImage:hover , .FeatureItem:hover , .PrimaryButton:hover{
+    transform: scale(0.93);
+    transition: 500ms all ease;
+    opacity: 0.8;
+}
+.SectionHeading{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.FeatureItem{
+    background-color: gainsboro;
+    border-radius: 8px;
+    min-width: 80px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+
+.SelectedFeatureItem{
+    color: white;
+    background-color: gray;
+}
+.PrimaryButton{
+    color: white;
+    width: 220px;
+    background-color: teal;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.Buy{
+    display: flex;
+    flex-direction: row;
+}
+
+.Buy > p{
+    color:red;
+    display: none;
+}
+
+.PrimaryButton:hover ~ .OutOfOrder{
+    display:block;
+}
