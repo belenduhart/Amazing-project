@@ -1,6 +1,6 @@
 # Amazing Project
 
-[![Demo CountPages alpha](https://j.gifs.com/GRQNmL.gif)](https://www.loom.com/share/e1504f06347043878a4959e83956b0e8)
+[![Demo Amazing Project](https://j.gifs.com/GRQNmL.gif)](https://www.loom.com/share/e1504f06347043878a4959e83956b0e8)
 
 
 ## Instalación/Installation
